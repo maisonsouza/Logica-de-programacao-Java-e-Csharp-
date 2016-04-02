@@ -1,4 +1,4 @@
-class Divisibilidade{
+class ADivisivelPorB{
 	public static void main(String [] args){
 		int a = (int)(Math.random()*1000);	
 		int b = (int) (Math.random()*20);
@@ -6,9 +6,9 @@ class Divisibilidade{
 	System.out.println("b:"+b);
 	
 	if(a % b == 0){
-	System.out.println("É divisível");
+	System.out.println("Ã‰ divisÃ­vel");
 	}else{
-	System.out.println("Não é divísivel");
+	System.out.println("NÃ£o Ã© divÃ­sivel");
 	}		
 }
 }
